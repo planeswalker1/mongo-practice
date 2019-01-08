@@ -10,7 +10,7 @@ _This repository has been created in order to showcase a programming challenge a
 
 ## challenge
 
-Create a c.r.u.d. items api using mongoose. clients should be able to create new items, get all items, get a single item, update a item (based on their id), and delete a item.
+Create a rest items api using mongoose. clients should be able to create new items, get all items, get a single item, update a item (based on their id), and delete a item.
 
 The Item schema should have a required property called name with a type of string.
 
@@ -28,10 +28,10 @@ The first endpoint should be:
 app.get('/items', function(req, res, next) {
   Item.find({}, function (err, items) {
     if (err) {
-      return next(err)
+      return next(err);
     }
 
-    return res.json(items)
+    return res.json(items);
   })
  });
  ```
@@ -76,3 +76,7 @@ _If you run into any issues or have questions, ideas or concerns contact me at d
 _JavaScript_
 
 _Node_
+
+_Mongodb_
+
+_Mongoose_
