@@ -1,6 +1,6 @@
 # _mongo-practice_
 
-#### _A mongoose rest api, 01.06.2019_
+#### _A mongoose rest api, 01.08.2019_
 
 #### By _**planeswalker1**_
 

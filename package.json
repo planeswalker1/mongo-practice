@@ -7,7 +7,9 @@
   "main": "app.js",
   "scripts": {
     "build": "npm install",
-    "dev": "node app.js"
+    "start": "node app.js",
+    "dev": "mongod -f models/mongod.conf & node app.js",
+    "mongo-kill": "killall mongod"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
